@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple List item</title>
+</head>
+<style>
+body{
+  background: #d3ebea;
+  padding:100px;
+  color: #d3ebea;
+}
+h1{
+  text-shadow:0 1px 0 black;
+  color: black
+}
+.list-item-1{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.list-item-1 li{
+   color: #121b1b;
+   margin:5px 0 5px 10px;
+   text-shadow:0 1px 0 #d3ebea;
+  }
+    
+.list-item-1 li:before{
+       content: '\25ca';
+       display:inline-block;
+       color:  #d3ebea;
+        padding:2px;
+        border-radius:.5px;
+        clear:left;
+        text-shadow:-1px -1px 0 #d3ebea;
+        margin-left:-10px;
+        padding:2px 10px 0 0;
+   }
+</style>
+<body>
+  <h1>List of Projects</h1>
+	<ul class="list-item-1">
+    <li>Shipment to roanapur</li>
+    <li>Salary management</li>
+    <li>Employee Skillset </li>
+    <li>CMS</li>
+    <li>Balancesheet generator</li>
+ </ul>
+</body>
+</html>
